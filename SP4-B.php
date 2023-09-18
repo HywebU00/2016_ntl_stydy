@@ -56,13 +56,9 @@
 											<label for="" class="col-md-2 control-label"><span class="required">*</span>性別</label>
 											<div class="col-md-10">
 												<div class="radio">
-													<label>
-											        	<input type="radio" checked> 男
-											        </label>
-											        <label>
-											        	<input type="radio"> 女
-											        </label>
-										        </div>
+													<label><input type="radio" name="sampleRadio" checked>男</label>
+													<label><input type="radio" name="sampleRadio">女</label>
+												</div>
 											</div>
 										</div>
 										<div class="form-group">
@@ -72,8 +68,8 @@
 											</div>
 											<div class="col-md-5">
 												<span class="captcha"><img src="images/basic/code.bmp"></span>
-												<button type="submit" class="btn btn-default"><i class="glyphicon glyphicon-refresh"></i> 重新產生</button>
-												<button type="submit" class="btn btn-default"><i class="glyphicon glyphicon-volume-up"></i> 語音播放</button>
+												<button type="submit" class="btn btn-default i_reflash">重新產生</button>
+												<button type="submit" class="btn btn-default i_play">語音播放</button>
 											</div>
 										</div>
 										<div class="form-group">

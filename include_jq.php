@@ -58,6 +58,18 @@
 			}]
 		});
 	});
+
+	$(function(){
+		$('.open-popup').click(function(){
+			$('.popup').show();
+			$('.popup').addClass('act');
+		});
+
+		$('.btn-close').click(function(){
+			$('.popup').hide;
+			$('.popup').removeClass('act');
+		});
+	})
 </script>
 
 <!-- 送select選單內容至select框內 -->	

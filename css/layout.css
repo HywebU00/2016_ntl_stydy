@@ -127,7 +127,106 @@ dt,dd{line-height: 180%;}
 .Block{
 	padding:20px 0;
 }
+/* 2023 新增 */
+.remark b{
+	color: #801d1c;
+	font-size: 125%;
+	border-bottom: 2px solid #801d1c;
+	margin-bottom: 0.5em;
+	padding-bottom: 0.2em;
+	display: inline-block;
+}
+.form-horizontal a{
+	display: block;
+	padding: 6px 0;
+}
+.form-check {
+	display: inline-block;
+	padding: 6px 12px 0 0;
+	margin: 0;
+}
+.i_file{
+	background: url(../images/icon_file.svg) 10px 50% no-repeat;
+	background-size: 22px 22px;
+	padding: 8px 1em 8px 2.5em;
+}
+.i_reflash{
+	background: url(../images/icon_reflash.svg) 10px 50% no-repeat;
+	background-size: 14px 14px;
+	padding-left: 2em;
+}
+.i_play{
+	background: url(../images/icon_play.svg) 10px 50% no-repeat;
+	background-size: 14px 14px;
+	padding-left: 2em;
+}
+.setFlex{
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 1.3em;
+}
+.setFlex label{
+	flex: 1 1 100%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 2px 0;
+}
 
+.setFlex label input{
+	margin: 2px 10px;
+}
+/* .setFlex label span{
+	background: pink;
+} */
+input[type="date"].form-control{
+	line-height: normal;
+}
+.popup{
+	position: fixed;
+	background: #000000b3;
+	backdrop-filter: blur(4px);
+	width: 100vw;
+	height: 100vh;
+	z-index: 1000;
+	display: none;
+}
+.popup .box{
+	position: absolute;
+	background: #fff;
+	width: 50%;
+	left: 50%;
+	top: 10%;
+	transform: translateX(-50%);
+	border-radius: 6px;
+	padding: 2em 3em;
+	font-size: 112.5%;
+	line-heigh: 1.8;
+}
+.btnGrp{
+	text-align: center;
+	margin-top: 2em;
+}
+.Preparation{
+	text-align: center;
+	font-size: 1.25em;
+	line-height: 1.8;
+	font-weight: bold;
+}
+@media (max-width: 767px) {
+	.radio label, 
+	.checkbox label,
+	.form-check {
+		width: 100%;
+	}
+	.setFlex label span{
+		display: block;
+		width: -webkit-fill-available;
+	}
+	.popup .box{
+		width: 90%;
+	}
+}
 /*////////////////////////////////////////////////////////////////////////////*/
 /*/////////////////////////////////  Header  /////////////////////////////////*/
 /*////////////////////////////////////////////////////////////////////////////*/
@@ -172,8 +271,8 @@ dt,dd{line-height: 180%;}
 
 	.navbar-collapse.collapse {margin-right: -15px;margin-left: -15px;}
 	.navbar-nav {
-	    float: left;
-	    margin: 0 -15px;
+		float: left;
+		margin: 0 -15px;
 	}
 
 	/*右側縮欄 #offcanvas-right*/
@@ -1921,7 +2020,7 @@ a.SearchBook.Disabled{
 	min-height: 500px;
 }
 
-.ContentPage a{color: rgba(189, 145, 26, 0.7);}
+.ContentPage a{color: rgba(179, 110, 0, 1);}
 .ContentPage a:hover,
 .ContentPage a:focus{color: rgba(189, 145, 26, 1);}
 
@@ -2349,14 +2448,14 @@ figure.pic img{
 	background: #ff9600;
 }
 .Tag a:hover {
-	  background: #9b6621;
-	  color: #fff;
-	  text-decoration: none;
+	background: #9b6621;
+	color: #fff;
+	text-decoration: none;
 }
 .Tag a.here {
-	  background: #9b6621;
-	  color: #fff;
-	  text-decoration: none;
+	background: #9b6621;
+	color: #fff;
+	text-decoration: none;
 }
 
 .ContentSearch {float: right; }
@@ -2366,7 +2465,7 @@ figure.pic img{
 
 .PageTitle {
 	font-size: 2.2em;
-	letter-spacing: 5px;
+	letter-spacing: 1px;
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
@@ -2427,7 +2526,7 @@ figure.pic img{
 
 .required {color: red; margin-right: 5px;margin-left: 5px; }
 
-.form-group .hint {color: #f15500; font-size: 0.9em; }
+.form-group .hint {color: #f15500; font-size: 0.9em; margin: 10px 0 0;}
 .form-group .form-control {height: auto; }
 
 .brown{ color:#915200 !important;  font-size:1.1em;}

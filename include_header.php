@@ -45,8 +45,8 @@
 								<div class="input-group">
 									<input type="text" class="form-control" placeholder="站內搜尋">
 									<span class="input-group-btn">
-										<button type="button" class="btn">
-											<span class="glyphicon glyphicon-search"></span>
+										<button type="button" class="btn" title="搜尋">
+											<span class="icon-search"></span>
 										</button>
 									</span>
 								</div>

@@ -67,7 +67,7 @@
 												<input type="file" class="form-control" id="inputCaptcha" placeholder="檔案上傳">
 											</div>
 											<div class="col-md-5">
-												<button type="search" class="btn btn-default"><i class="glyphicon glyphicon-open-file"></i> 瀏覽</button>
+												<button type="search" class="btn btn-default i_file">瀏覽</button>
 											</div>
 											<div class="col-md-10 col-md-offset-2">
 												<p class="hint">說明：可上傳的檔案類型限（DOC、DOCX、XLS、XLSX、PPT、PPTX、PDF、JPG、GIF、BMP、PNG、TIFF、ZIP、RAR、TXT、RTF），如果有多個檔案請壓縮後再上傳，檔案總大小不可超過10MB。</p>
@@ -80,8 +80,8 @@
 											</div>
 											<div class="col-md-5">
 												<span class="captcha"><img src="images/basic/code.bmp"></span>
-												<button type="submit" class="btn btn-default"><i class="glyphicon glyphicon-refresh"></i> 重新產生</button>
-												<button type="submit" class="btn btn-default"><i class="glyphicon glyphicon-volume-up"></i> 語音播放</button>
+												<button type="submit" class="btn btn-default i_reflash">重新產生</button>
+												<button type="submit" class="btn btn-default i_play">語音播放</button>
 											</div>
 										</div>
 										<div class="form-group">

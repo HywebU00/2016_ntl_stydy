@@ -41,13 +41,9 @@
 											<label for="" class="col-md-2 control-label"><span class="required">*</span>電子報</label>
 											<div class="col-md-10">
 												<div class="checkbox">
-													<label>
-											        	<input type="checkbox"> 藝文資訊電子報
-											        </label>
-											        <label>
-											        	<input type="checkbox"> 臺灣學通訊電子報
-											        </label>
-										        </div>
+													<label><input type="checkbox" name="sampleRadio1" checked>藝文資訊電子報</label>
+													<label><input type="checkbox" name="sampleRadio1">臺灣學通訊電子報</label>
+												</div>
 											</div>
 										</div>
 										<div class="form-group MarginBottom15">
@@ -57,8 +53,8 @@
 											</div>
 											<div class="col-md-5">
 												<span class="captcha"><img src="images/basic/code.bmp"></span>
-												<button type="submit" class="btn btn-default"><i class="glyphicon glyphicon-refresh"></i> 重新產生</button>
-												<button type="submit" class="btn btn-default"><i class="glyphicon glyphicon-volume-up"></i> 語音播放</button>
+												<button type="submit" class="btn btn-default i_reflash">重新產生</button>
+												<button type="submit" class="btn btn-default i_play">語音播放</button>
 											</div>
 										</div>
 										<div class="form-group">
