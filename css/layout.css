@@ -128,14 +128,40 @@ dt,dd{line-height: 180%;}
 	padding:20px 0;
 }
 /* 2023 新增 */
+.remark{
+	background: #fff;
+	padding: 2em;
+	margin-bottom: 2em;
+	box-shadow: #dcc0bf 0 0 20px 0;
+	border-radius: 5px;
+	position: relative;
+}
+.remark button{
+	position: absolute;
+	top: 2em;
+	right: 2em;
+}
 .remark b{
 	color: #801d1c;
 	font-size: 125%;
 	border-bottom: 2px solid #801d1c;
-	margin-bottom: 0.5em;
-	padding-bottom: 0.2em;
+	margin-bottom: .5em;
+	padding-bottom: .2em;
 	display: inline-block;
 }
+.remark .info{
+	margin-top: 1.5em;
+}
+.btn-switch{
+	background: #666;
+	color: #fff;
+}
+.btn-switch:hover,
+.btn-switch:focus{
+	color: #fff;
+	background: rgba(189,145,26,1);
+}
+
 .form-horizontal a{
 	display: block;
 	padding: 6px 0;
@@ -172,13 +198,9 @@ dt,dd{line-height: 180%;}
 	align-items: center;
 	padding: 2px 0;
 }
-
 .setFlex label input{
 	margin: 2px 10px;
 }
-/* .setFlex label span{
-	background: pink;
-} */
 input[type="date"].form-control{
 	line-height: normal;
 }
